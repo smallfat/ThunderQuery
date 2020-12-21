@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ThunderQuery"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/smallfat/code/ThunderQuery/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/smallfat/code/ThunderQuery/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/smallfat/code/ThunderQuery/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThunderQuery">
+				<Option output="/home/smallfat/code/ThunderQuery/cmake-build-debug/ThunderQuery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/smallfat/code/ThunderQuery/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 ThunderQuery"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThunderQuery/fast">
+				<Option output="/home/smallfat/code/ThunderQuery/cmake-build-debug/ThunderQuery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/smallfat/code/ThunderQuery/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 ThunderQuery/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/smallfat/code/ThunderQuery/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/smallfat/code/ThunderQuery/common/Common.h">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/common/StringUtils.h">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/main.cpp">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/ASTInsertQuery.cpp">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/ASTInsertQuery.h">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/IAST.cpp">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/IAST.h">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/IParser.cpp">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/IParser.h">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/ParserInsertQuery.cpp">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/parser/ParserInsertQuery.h">
+			<Option target="ThunderQuery"/>
+		</Unit>
+		<Unit filename="/home/smallfat/code/ThunderQuery/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/smallfat/code/ThunderQuery/common/StringUtils.h
+string
+-
+
+/home/smallfat/code/ThunderQuery/parser/ASTInsertQuery.cpp
+ASTInsertQuery.h
+/home/smallfat/code/ThunderQuery/parser/ASTInsertQuery.h
+
+/home/smallfat/code/ThunderQuery/parser/ASTInsertQuery.h
+IAST.h
+/home/smallfat/code/ThunderQuery/parser/IAST.h
+../common/StringUtils.h
+/home/smallfat/code/ThunderQuery/common/StringUtils.h
+
+/home/smallfat/code/ThunderQuery/parser/IAST.h
+memory
+-
+vector
+-
+

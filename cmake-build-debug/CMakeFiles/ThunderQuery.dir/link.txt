@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -g   CMakeFiles/ThunderQuery.dir/main.cpp.o CMakeFiles/ThunderQuery.dir/parser/IAST.cpp.o CMakeFiles/ThunderQuery.dir/parser/ASTInsertQuery.cpp.o CMakeFiles/ThunderQuery.dir/parser/IParser.cpp.o CMakeFiles/ThunderQuery.dir/parser/ParserInsertQuery.cpp.o  -o ThunderQuery 
