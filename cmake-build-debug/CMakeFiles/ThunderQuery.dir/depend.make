@@ -11,3 +11,14 @@ CMakeFiles/ThunderQuery.dir/parser/ASTInsertQuery.cpp.o: ../parser/IAST.h
 CMakeFiles/ThunderQuery.dir/parser/IAST.cpp.o: ../parser/IAST.cpp
 CMakeFiles/ThunderQuery.dir/parser/IAST.cpp.o: ../parser/IAST.h
 
+CMakeFiles/ThunderQuery.dir/parser/IParser.cpp.o: ../common/Common.h
+CMakeFiles/ThunderQuery.dir/parser/IParser.cpp.o: ../parser/IAST.h
+CMakeFiles/ThunderQuery.dir/parser/IParser.cpp.o: ../parser/IParser.cpp
+CMakeFiles/ThunderQuery.dir/parser/IParser.cpp.o: ../parser/IParser.h
+
+CMakeFiles/ThunderQuery.dir/parser/ParserInsertQuery.cpp.o: ../common/Common.h
+CMakeFiles/ThunderQuery.dir/parser/ParserInsertQuery.cpp.o: ../parser/IAST.h
+CMakeFiles/ThunderQuery.dir/parser/ParserInsertQuery.cpp.o: ../parser/IParser.h
+CMakeFiles/ThunderQuery.dir/parser/ParserInsertQuery.cpp.o: ../parser/ParserInsertQuery.cpp
+CMakeFiles/ThunderQuery.dir/parser/ParserInsertQuery.cpp.o: ../parser/ParserInsertQuery.h
+

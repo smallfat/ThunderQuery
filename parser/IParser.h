@@ -13,8 +13,13 @@ struct Expected
 class IParser
 {
 public:
-    virtual bool parse(Pos pos, ASTPtr &node, Expected &expected) = 0;
-    virtual bool parseImpl(Pos pos, ASTPtr &node, Expected &expected) = 0;
+    virtual bool parse(Pos pos, ASTPtr & node, Expected & expected) = 0;
+    virtual bool parseImpl(Pos pos, ASTPtr & node, Expected & expected) = 0;
+    virtual bool ignore(Pos & pos, Expected & expected)
+    {
+        ASTPtr ignore_node;
+        return parse(pos, ignore_node, expected);
+    }
 
     template<typename F>
     static bool wrapParseImpl(Pos & pos, const F & func)

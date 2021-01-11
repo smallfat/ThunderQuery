@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/smallfat/code/ThunderQuery/common/Common.h
+
 /home/smallfat/code/ThunderQuery/common/StringUtils.h
 string
 -
@@ -25,4 +27,24 @@ memory
 -
 vector
 -
+
+/home/smallfat/code/ThunderQuery/parser/IParser.cpp
+IParser.h
+/home/smallfat/code/ThunderQuery/parser/IParser.h
+
+/home/smallfat/code/ThunderQuery/parser/IParser.h
+set
+-
+IAST.h
+/home/smallfat/code/ThunderQuery/parser/IAST.h
+../common/Common.h
+/home/smallfat/code/ThunderQuery/common/Common.h
+
+/home/smallfat/code/ThunderQuery/parser/ParserInsertQuery.cpp
+ParserInsertQuery.h
+/home/smallfat/code/ThunderQuery/parser/ParserInsertQuery.h
+
+/home/smallfat/code/ThunderQuery/parser/ParserInsertQuery.h
+IParser.h
+/home/smallfat/code/ThunderQuery/parser/IParser.h
 
